@@ -1,2 +1,2 @@
 # paciente-TB
-Versáo final Pronex Mariana
+Versão final Pronex Mariana
