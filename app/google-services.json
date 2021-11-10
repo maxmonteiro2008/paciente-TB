@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "748712096872",
+    "project_id": "pronex-tb-c21ad",
+    "storage_bucket": "pronex-tb-c21ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748712096872:android:9b3d3e5798719b0659f7dd",
+        "android_client_info": {
+          "package_name": "com.mx.paciente_pronex_tb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748712096872-gsheo48ua63griimigbr3uoqs8848atv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7BQRAaYljtQ2w1_ajM50FogIbQDlhd1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748712096872-gsheo48ua63griimigbr3uoqs8848atv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

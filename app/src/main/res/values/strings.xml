@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Paciente-TB</string>
+
+    <!-- Strins UI -->
+    <string name="enviar_email">Enviar Email de recuperacao de senha</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="status">Status</string>
+    <string name="notauth">Não Autenticado</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="hello">Hello World!!!!</string>
+    <string name="sub">Submit</string>
+    <string name="card">CArdView</string>
+    <string name="test">TESTE TOTAL</string>
+    <string name="pacientes">Paciente:</string>
+    <string name="fulano"> PacienteX</string>
+    <string name="opcoes">Opções:</string>
+    <string name="doenca">Doenças:</string>
+    <string name="dias">você está no:</string>
+    <string name="getpacientes"> Buscar Pacientes</string>
+    <string name="tratamento_complement"> º dia de tratamento </string>
+    <string name="blanck">" "</string>
+    <string name="horario">Escolha o Horário</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="login">Entrar</string>
+    <string name="senha">Senha</string>
+    <string name="title_user_list">Users</string>
+    <string name="title_user_detail">User Detail</string>
+    <string name="login2">LOGIN:</string>
+    <string name="benvindo">Ben vindo ao App Pronex TB</string>
+    <string name="EsqueceuSenha">Esqueceu sua Senha?</string>
+    <string name="RegistrarFoto">Registrar medicação com Foto</string>
+    <string name="RegistrarsemFoto">Registrar medicação sem Foto</string>
+    <string name="VamosRegistra">Vamos registrarsua  medicação?</string>
+    <string name="saralogo">Logo do app</string>
+    <string name="medicacao">Vamos registrar a sua medicação?</string>
+    <string name="reg_foto"> REGISTRAR COM FOTO</string>
+    <string name="reg_semfoto"> REGISTRAR SEM FOTO</string>
+    <string name="tratamento">TRATAMENTO DIA:</string>
+    <string name="reg_sintoma">REGISTRAR SINTOMA</string>
+
+    <!--Strings  de Sintomas     -->
+    <string name="sem_sintoma"> Sem sintomas</string>
+    <string name="sintomas_leves"> Sintomas leves</string>
+    <string name="sintomas_fortes"> Sintomas fortes</string>
+    <string name="s_1_Cansado">Cansado</string>
+    <string name="s_2_Tonto">Tonto</string>
+    <string name="s_3_Insônia">Insônia</string>
+    <string name="s_4_Fraqueza">Fraqueza</string>
+    <string name="s_5_apetite">Falta de apetite</string>
+    <string name="s_6_Febre">Febre</string>
+    <string name="s_7_vomitar">Vontade de vomitar</string>
+    <string name="s_8_Diarréia">Diarréia</string>
+    <string name="s_9_estômago">Dor no estômago</string>
+    <string name="s_10_corpo">Dor no corpo</string>
+    <string name="s_11_pele">Pele vermelha</string>
+    <string name="s_12_Coceira"> Coceira</string>
+    <string name="s_13_Tremores">Tremores</string>
+    <string name="s_14_vermelho">Suor ou urina vermelhas</string>
+    <string name="s_15_Tristeza"> Tristeza  grande</string>
+    <string name="s_16_dormir"> Só quero ficar dormindo</string>
+    <string name="title_activity_info">Inormações</string>
+
+</resources>
