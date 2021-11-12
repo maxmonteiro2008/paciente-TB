@@ -44,6 +44,7 @@
     <string name="reg_sintoma">REGISTRAR SINTOMA</string>
 
     <!--Strings  de Sintomas     -->
+    <string name="Titulo_sintoma">Selecione todos os sintomas que você está sentindo</string>
     <string name="sem_sintoma"> Sem sintomas</string>
     <string name="sintomas_leves"> Sintomas leves</string>
     <string name="sintomas_fortes"> Sintomas fortes</string>
@@ -61,8 +62,8 @@
     <string name="s_12_Coceira"> Coceira</string>
     <string name="s_13_Tremores">Tremores</string>
     <string name="s_14_vermelho">Suor ou urina vermelhas</string>
-    <string name="s_15_Tristeza"> Tristeza  grande</string>
-    <string name="s_16_dormir"> Só quero ficar dormindo</string>
+    <string name="s_15_Tristeza"> Tristeza </string>
+    <string name="s_16_dormir"> Sonolência</string>
     <string name="title_activity_info">Inormações</string>
 
 </resources>

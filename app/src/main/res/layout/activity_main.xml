@@ -25,24 +25,24 @@
         android:id="@+id/edt_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/edittext_round"
         android:hint="@string/prompt_email"
+        android:importantForAutofill="no"
         android:inputType="textEmailAddress"
-        android:textColor="@android:color/darker_gray"
         android:padding="10dp"
+        android:textColor="@android:color/darker_gray"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_logo"
-        tools:visibility="visible"
-        android:importantForAutofill="no" />
+        tools:visibility="visible" />
 
     <EditText
         android:id="@+id/edt_pass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/edittext_round_gray"
         android:hint="@string/prompt_password"
         android:importantForAutofill="no"
@@ -52,14 +52,14 @@
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edt_login"/>
+        app:layout_constraintTop_toBottomOf="@id/edt_login" />
 
     <Button
         android:id="@+id/btn_login"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/roundbutton"
         android:contentDescription="@string/login"
         android:insetRight="0dp"
@@ -76,7 +76,8 @@
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="2dp"
         android:contentDescription="@string/EsqueceuSenha"
         android:text="@string/EsqueceuSenha"
         android:textColor="@color/theme"
@@ -85,8 +86,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_login"
+        app:layout_constraintBottom_toTopOf="@+id/img_apoio"
         tools:visibility="visible" />
-
 
     <ImageView
         android:id="@+id/img_apoio"

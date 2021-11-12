@@ -1,6 +1,7 @@
 package com.mx.paciente_pronex_tb;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -53,9 +54,21 @@ public class Sentimento extends AppCompatActivity {
 
                      sint=0;
                 }
+                if ( cb_2.isChecked()) {
+
+                    sint=1;
+                }
+                if ( cb_3.isChecked()) {
+
+                    sint=5;
+                }
 
 
+                Intent  nextIntent= new Intent(Sentimento.this,Sintomas.class);
 
+                nextIntent.putExtra("Sentimento",sint);
+
+                startActivity(nextIntent);
 
 
 

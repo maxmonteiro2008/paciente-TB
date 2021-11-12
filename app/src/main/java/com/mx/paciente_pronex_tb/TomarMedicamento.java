@@ -51,6 +51,7 @@ public class TomarMedicamento extends AppCompatActivity {
         //email=mAuth.getCurrentUser().getEmail().toString();
         db = FirebaseFirestore.getInstance();
         email=intent.getStringExtra("email");
+
 //<<------------------------Action View ------------------------------------------
         btn2.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
@@ -64,7 +65,7 @@ public class TomarMedicamento extends AppCompatActivity {
                             @Override
                             public void onSuccess(Void aVoid) {
                                 Log.d("store:Med", "DocumentSnapshot successfully written!");
-                                Snackbar.make( findViewById(R.id.btn_reg_foto), "Dadod Registrados",
+                                Snackbar.make( findViewById(R.id.btn_reg_foto), "Dados Registrados",
                                         Snackbar.LENGTH_SHORT)
                                         .show();
                             }
@@ -79,8 +80,8 @@ public class TomarMedicamento extends AppCompatActivity {
 
 
 
-                // Intent myIntent = new Intent(MainActivity.this, RecoveryPass.class);
-                //startActivity(myIntent);
+                Intent myIntent = new Intent( TomarMedicamento.this, Sentimento.class);
+                startActivity(myIntent);
 
 
 

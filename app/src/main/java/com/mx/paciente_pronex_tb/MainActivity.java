@@ -108,9 +108,9 @@ public class MainActivity extends AppCompatActivity{
                 password = edpassword.getText().toString();
 
 
-                if ((email.equals("")) && (password.equals(""))) {
+                if ((email.isEmpty()) && (password.isEmpty())) {
 
-                    //Log.i("LOGIN-test", "mark");
+                    Log.i("LOGIN-test", "mark");
 
                     email = "miguelmonte.vix@gmail.com";
                     password = "pronexTB";

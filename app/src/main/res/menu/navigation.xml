@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/navigation_songs"
-        android:icon="@drawable/ic_photo_white_18dp"
-        android:title="Songs"/>
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_white_48dp"
+        android:title="home"/>
 
     <item
-        android:id="@+id/navigation_albums"
-        android:icon="@drawable/common_google_signin_btn_icon_light_normal"
-        android:title="Albums"/>
+        android:id="@+id/info"
+        android:icon="@drawable/ic_info_white_48dp"
+        android:title="Info"/>
 
     <item
-        android:id="@+id/navigation_artists"
-        android:icon="@drawable/ic_launcher_foreground"
-        android:title="Artists"/>
+        android:id="@+id/Conta"
+        android:icon="@drawable/ic_account_circle_white_48dp"
+        android:title="conta"/>
 </menu>
