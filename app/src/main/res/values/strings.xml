@@ -42,6 +42,7 @@
     <string name="reg_semfoto"> REGISTRAR SEM FOTO</string>
     <string name="tratamento">TRATAMENTO DIA:</string>
     <string name="reg_sintoma">REGISTRAR SINTOMA</string>
+    <string name="Info">Informações</string>
 
     <!--Strings  de Sintomas     -->
     <string name="Titulo_sintoma">Selecione todos os sintomas que você está sentindo</string>
@@ -66,4 +67,13 @@
     <string name="s_16_dormir"> Sonolência</string>
     <string name="title_activity_info">Inormações</string>
 
+    <!-- INFO -->
+<string name="home"> home</string>
+    <string name="conta"> conta</string>
+    <string name="info"> info</string>
+    <string name="regi">registro</string>
+    <string name="inf_oqe">O que é Tuberculose ?</string>
+    <string name="qsintomas"> Quais sinais e sintomas?</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
 </resources>

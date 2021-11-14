@@ -3,15 +3,19 @@
     <item
         android:id="@+id/home"
         android:icon="@drawable/ic_home_white_48dp"
-        android:title="home"/>
+        android:title="@string/home"/>
 
     <item
         android:id="@+id/info"
         android:icon="@drawable/ic_info_white_48dp"
-        android:title="Info"/>
+        android:title="@string/info"/>
+    <item
+        android:id="@+id/registro"
+        android:icon="@drawable/ic_baseline_inventory_white_48dp"
+        android:title="@string/regi"/>
 
     <item
         android:id="@+id/Conta"
         android:icon="@drawable/ic_account_circle_white_48dp"
-        android:title="conta"/>
+        android:title="@string/conta"/>
 </menu>

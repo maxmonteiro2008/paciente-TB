@@ -43,7 +43,7 @@ public class Sentimento extends AppCompatActivity {
         txt1 = findViewById(R.id.txt_1);
         txt2 = findViewById(R.id.txt_2);
 
- // Actions
+ // Actions =========================================================================================================================
         btn.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
             public void onClick(View v) {
