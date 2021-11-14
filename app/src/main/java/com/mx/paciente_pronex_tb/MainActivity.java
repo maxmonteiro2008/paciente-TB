@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity{
 
                             tv.setText(fbuser.getEmail().toString());
                             tv.setTextColor(BLACK);
-                            Intent myIntent = new Intent(MainActivity.this, TomarMedicamento.class);
+                            Intent myIntent = new Intent(MainActivity.this, Info.class);
                             myIntent.putExtra("email", fbuser.getEmail().toString());
                             startActivity(myIntent);
 

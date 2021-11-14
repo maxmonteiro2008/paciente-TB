@@ -8,6 +8,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -15,6 +16,7 @@ import android.widget.TextView;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.Timestamp;
 import com.google.firebase.auth.FirebaseAuth;
@@ -29,6 +31,7 @@ public class TomarMedicamento extends AppCompatActivity {
     private Button btn1, btn2;
 
     private String email;
+    private BottomNavigationView menu;
 
     // Firebase members
     FirebaseFirestore db ;
@@ -44,6 +47,7 @@ public class TomarMedicamento extends AppCompatActivity {
         //Views connection
         btn1 = findViewById(R.id.btn_reg_foto);
         btn2 = findViewById(R.id.bnt_reg);
+        menu=findViewById(R.id.bottomNavigationView);
 
 
 
@@ -89,6 +93,31 @@ public class TomarMedicamento extends AppCompatActivity {
 
 
         });//setOnClickListener btn2
+
+        menu.setOnItemSelectedListener(new BottomNavigationView.OnItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+                switch (item.getItemId()) {
+                    case R.id.nav_home:
+                        Intent i = new Intent(TomarMedicamento.this, MainActivity.class);
+                        startActivity(i);
+                        return true;
+                    case R.id.nav_info:
+                        //openFragment();
+                        return true;
+                    case R.id.nav_registro:
+                        Intent g = new Intent(TomarMedicamento.this, TomarMedicamento.class);
+                        startActivity(g);
+                        return true;
+                    case R.id.nav_Conta:
+                        //openFragment();
+                        return true;
+                }//switch
+                return false;
+            }//onNavItem
+
+                });//on nav
 
     }//OnCreate
 }//Activity
