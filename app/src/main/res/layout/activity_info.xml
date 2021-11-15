@@ -49,7 +49,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="@string/qsintomas"
+                android:text="@string/inf_oqe"
                 android:textColor="@color/black"
                 android:textSize="16sp"
 
@@ -69,15 +69,13 @@
                 android:contentDescription="TODO"
                 tools:ignore="ContentDescription" />
 
-            <androidx.appcompat.widget.AppCompatToggleButton
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:checked="false"
                 android:textColor="#455A64"
-                android:textOff="@string/play"
-                android:textOn="@string/pause"
+                android:text="@string/play"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/im_1" />
@@ -97,7 +95,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="@string/inf_oqe"
+                android:text="@string/qsintomas"
                 android:textColor="@color/black"
                 android:textSize="16sp"
 
@@ -116,14 +114,13 @@
                 app:layout_constraintTop_toTopOf="parent"
                 android:contentDescription="TODO" />
 
-            <androidx.appcompat.widget.AppCompatToggleButton
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:checked="false"
-                android:textOff="@string/play"
-                android:textOn="@string/pause"
+               android:text="@string/play"
+                android:onClick="play_1"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/im_1" />

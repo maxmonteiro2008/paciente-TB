@@ -100,7 +100,7 @@ public class TomarMedicamento extends AppCompatActivity {
 
                 switch (item.getItemId()) {
                     case R.id.nav_home:
-                        Intent i = new Intent(TomarMedicamento.this, MainActivity.class);
+                        Intent i = new Intent(TomarMedicamento.this, home.class);
                         startActivity(i);
                         return true;
                     case R.id.nav_info:
